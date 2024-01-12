@@ -1,0 +1,70 @@
+    1  cd server_lesson
+    2  cd /root
+    3  cd server_lesson
+    4  ls
+    5  vi README.md
+    6  vi README.md
+    7  vi README.md
+    8  vi README.md
+    9  vi README.md
+   10  git add README.md
+   11  git commit -m 'README.md update'
+   12  git status
+   13  ls
+   14  cd /root
+   15  ls
+   16  cd server_lesson
+   17  mkdir linux_practice2 && cd linux_practice2
+   18  mkdir documents && cd documents
+   19  touch gizumo{01..50}.md
+   20  ls
+   21  cd /index_practice2
+   22  cd /server_lesson
+   23  cd /root
+   24  cd server_lesson/
+   25  cd linux_practice
+   26  cd linux_practice2
+   27  mkdir trash
+   28  ls
+   29  mv gizumo{20..40}.md trash
+   30  mv gizumo20.md gizumo21.md gizumo22.md gizumo23.md gizumo24.md gizumo25.md gizumo26.md gizumo27.md gizumo28.md gizumo29.md gizumo30.md gizumo30.md gizumo31.md gizumo32.md gizumo33.md gizumo34.md gizumo35.md gizumo36.md gizumo37.md gizumo38.md gizumo39.md gizumo40.md trash/.
+   31  mv /documents/gizumo{20..40}.md /trash
+   32  ls
+   33  mv /documents/gizumo{20..40}.md trash
+   34  ls
+   35  ls trash
+   36* 
+   37  ls trash
+   38  rm trash
+   39  y
+   40  ls
+   41  rm trash
+   42  ls
+   43* 
+   44  mv /documents/gizumo{20..40}.md trash
+   45  cd linux_practice1
+   46  cd /linux_practice1
+   47  cd /server_lesson
+   48  cd server_lesson/
+   49  ls
+   50  cd ../
+   51   mv documents/gizumo{20..40}.md trash
+   52  ls
+   53  mkdir .gitignore
+   54  ls
+   55  rm .gitignore
+   56  rm -r .gitignore
+   57  ls
+   58  touch .gitignore
+   59  ls
+   60  vi .gitignore
+   61  ls
+   62  vi .gitignore
+   63  vi .gitignore
+   64  vi .gitignore
+   65  git status
+   66  vi .gitignore
+   67  git rm -r --cached .
+   68  touch exec_command.log
+   69  ls
+   70  history 300 >> exec_command.log
